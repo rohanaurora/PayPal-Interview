@@ -99,7 +99,7 @@
 }
 
 
--(void) collectionView:(UICollectionView *)collectionView didDeselectItemAtIndexPath:(NSIndexPath *)indexPath {
+-(void) collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     
     NSDictionary *photo = self.photos[indexPath.row];
     DetailViewController *viewController = [[DetailViewController alloc] init];
