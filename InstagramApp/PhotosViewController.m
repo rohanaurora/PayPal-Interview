@@ -62,7 +62,7 @@
     
     NSURLSession *session = [NSURLSession sharedSession];
     
-    NSString *myString = @"https://api.instagram.com/v1/tags/mountains/media/recent?access_token=30857621.f59def8.e59c67b5c5af453d9ade4b3721f68e5d";
+    NSString *myString = [NSString stringWithFormat:@"https://api.instagram.com/v1/tags/mountains/media/recent?access_token=%@", self.accessToken];
     
     NSURL *urlString = [NSURL URLWithString:myString];
     
