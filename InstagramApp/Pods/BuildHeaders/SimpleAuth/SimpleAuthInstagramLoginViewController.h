@@ -1,1 +1,0 @@
-../../SimpleAuth/Providers/Instagram/SimpleAuthInstagramLoginViewController.h
